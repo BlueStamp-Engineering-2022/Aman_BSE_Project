@@ -8,9 +8,9 @@ SoftwareSerial BT(2, 3); // RX, TX
 #define in3 6
 #define in4 7
 #define enB 9
-
+int x = 1;
 int xAxis = 140, yAxis = 140;
-String readString;
+int readByte;
 int motorSpeedA = 0;
 int motorSpeedB = 0;
 const int RELAY_PIN = A5;
@@ -41,23 +41,25 @@ void loop() {
     Serial.print(xAxis);
     Serial.print(",");
     Serial.println(yAxis);
+
   }
   delay(10);
-  if (readString.length() > 0) {
-    Serial.println(readString);
-    while (Serial.available()) {
-      delay(50);
-      char c = Serial.read();
-      readString += c;
-      Serial.println(readString);
-    }
+
+    if (xAxis == 254 && yAxis == 255) {
+    digitalWrite(RELAY_PIN, HIGH);
+    Serial.println("WaterOn");
   }
+
+    if (xAxis == 255 && yAxis == 254) {
+    digitalWrite(RELAY_PIN, LOW);
+   
+  }
+
   // Makes sure we receive corrent values
 
   if (xAxis > 130 && xAxis < 150 && yAxis > 130 && yAxis < 150) {
     Stop();
   }
-
 
   if (yAxis > 130 && yAxis < 150) {
 
@@ -67,7 +69,7 @@ void loop() {
       motorSpeedB = map(xAxis, 130, 60, 0, 255);
     }
 
-    if (xAxis > 150) {
+    if (xAxis<254 && xAxis > 150) {
       turnRight();
       motorSpeedA = map(xAxis, 150, 220, 0, 255);
       motorSpeedB = map(xAxis, 150, 220, 0, 255);
@@ -80,7 +82,7 @@ void loop() {
       if (yAxis < 130) {
         forword();
       }
-      if (yAxis > 150) {
+      if (yAxis<254 && yAxis > 150) {
         backword();
       }
 
@@ -88,13 +90,7 @@ void loop() {
         motorSpeedA = map(yAxis, 130, 60, 0, 255);
         motorSpeedB = map(yAxis, 130, 60, 0, 255);
       }
-      if (readString == "TurnOnWater") {
-        digitalWrite(RELAY_PIN, HIGH);
-      }
-      if (readString == "TurnOffWater") {
-        digitalWrite(RELAY_PIN, LOW);
 
-      }
       if (yAxis > 150) {
         motorSpeedA = map(yAxis, 150, 220, 0, 255);
         motorSpeedB = map(yAxis, 150, 220, 0, 255);
@@ -105,7 +101,7 @@ void loop() {
       if (yAxis < 130) {
         forword();
       }
-      if (yAxis > 150) {
+      if (yAxis<254 && yAxis > 150) {
         backword();
       }
 
@@ -114,7 +110,7 @@ void loop() {
         motorSpeedB = 255;
       }
 
-      if (xAxis > 150) {
+      if (xAxis<254 && xAxis > 150) {
         motorSpeedA = 255;
         motorSpeedB = map(xAxis, 150, 220, 255, 50);
       }
@@ -132,7 +128,7 @@ void loop() {
 
 
 void forword() {
-  Serial.println("backword");
+  Serial.println("forword");
   digitalWrite(in1, HIGH);
   digitalWrite(in2, LOW);
   digitalWrite(in3, HIGH);
@@ -140,7 +136,7 @@ void forword() {
 }
 
 void backword() {
-  Serial.println("forward");
+  Serial.println("backword");
   digitalWrite(in1, LOW);
   digitalWrite(in2, HIGH);
   digitalWrite(in3, LOW);
@@ -168,5 +164,5 @@ void Stop() {
   digitalWrite(in2, LOW);
   digitalWrite(in3, LOW);
   digitalWrite(in4, LOW);
-  Serial.println("stop");
+  // Serial.println("stop");
 }
