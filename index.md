@@ -1,29 +1,29 @@
 ﻿# Green Machine
-This will serve as a brief description of your project. Limit this to three sentences because it can become overly long at that point. This copy should draw the user in and make she/him want to read more.
+My project is the Green Machine. It is a agriculture robot that plants and waters plants/trees. It is powered by an Arduino Uno.
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
 | Aman Katyal | Mission San Jose High School | Astrophysics | Incoming Junior
 
-![Headstone Image](https://lh3.googleusercontent.com/jPJWNQjSbysh37DLJqTwEjvxAEzxq1-MyuUu6qoHH8lLm64_3ICiXikdP3BCZIgxOevT7bmIC1tyYGo6nRfYkS4STt3BNe3FL4PL9eUvT_7pTdeVjT-0QKIpDG2-J0CZn7-hjnkpRYYCD4q40wWs3dDRda-vhyY7enaMEuZFe4xKQRnzEvP7ZA1H5Rrl42W-6ho7P2kx-Z5MW82kbo62JyPtjhmWYVv1xqXDUFUwDycZ9_PHl4WVurOel0fpGG2wMzPyY24bUsr-BLX7COE6BN2aqMQJz4C__dtP-AHo9WDr-RKYq4Np2jw3UoCmIBIqg3v5Da3jaLnr1vziQnG73r5uaNOVVDwGhg5ZuywDcUpHCMX7it4Dl1-7kIF-lorzsdtkcufvyDYwPdaXuFfH6gM1eQzSTe2AFgYs3ml_09gnHwWr1G94DHTjx3NKmhbh5oAIq7y2tr8txqlvhUxBRGB1m6_olHL2_NkBHSIU24N1THeFzOuANR4qb9uySbNYQx9S3YiFP8cj9X0wXHyomfBO_x7a12isd5imfuSTtesN_TQLn45Y4yBncM1m-1HJNvshBRivrDp2Voc4Fqoew9lWjqYPc4DQRx66-7keXNLK6pjYb58tx0YklbPDHHoQyuN4mIonhNEQ96kkR99p3OymuE7PyAYyKz4nPUDgDi_w86EVnEeOmT8OodBSIUI8AXLCdgw7hY1PZA90X-w7uz1d1vhLVPO0Kn7zO18iUvOdKXtxsQyVEgmkYarSRA=w778-h895-no?authuser=0)
+![Headstone Image](https://lh3.googleusercontent.com/pw/AM-JKLUqwVLOwE-zGW1dLj1Zd_YprCihRz79k14BO8IZSeNU0Xv3QyP-AYmYYFAGavOWbZFLfWW_Ch1vuwSSC7tnXMcrkfqObiM-XP-6RiC-9Tz93Tfqh81yK4Ih5DoT3l1ufrtY455UdwnAC6lQ62roXW9z=w699-h931-no?authuser=0)
 
 # Final Milestone
-My final milestone is the increased reliability and accuracy of my robot. I ameliorated the sagging and fixed the reliability of the finger. As discussed in my second milestone, the arm sags because of weight. I put in a block of wood at the base to hold up the upper arm; this has reverberating positive effects throughout the arm. I also realized that the forearm was getting disconnected from the elbow servo’s horn because of the weight stress on the joint. Now, I make sure to constantly tighten the screws at that joint. 
+My final milestone is the seed mechanism. I CAD'ed and 3D printed a container and a sliding piece for the bottom. When the servo which is controlled via the app spins and  the 2 holes on the the container and sliding piece line up, the seed can fall out. I atteched the mechanism using mounting tape and wood which I drilled and sawed. I really ejoyed learning how to saw and drill for this mechanism. I struggled with getting the seeds falling out but I fixed that by making the hole larger. 
 
 [![Final Milestone](https://res.cloudinary.com/marcomontalbano/image/upload/v1612573869/video_to_markdown/images/youtube--F7M7imOVGug-c05b58ac6eb4c4700831b2b3070cd403.jpg )](https://www.youtube.com/watch?v=F7M7imOVGug&feature=emb_logo "Final Milestone"){:target="_blank" rel="noopener"}
 
 # Second Milestone
-My final milestone is the increased reliability and accuracy of my robot. I ameliorated the sagging and fixed the reliability of the finger. As discussed in my second milestone, the arm sags because of weight. I put in a block of wood at the base to hold up the upper arm; this has reverberating positive effects throughout the arm. I also realized that the forearm was getting disconnected from the elbow servo’s horn because of the weight stress on the joint. Now, I make sure to constantly tighten the screws at that joint.
+My second milestone is the watering mechanism for the plants. To reach this milestone, I CAD'ed and laser cut an acrylic box which I glued together with caulk. This served as the water container which has a submersible water pump. My app sends a signal to the bluetooth module which sends the signal to the arduino. The arduino sends a signal to the relay which controlls the submerisible water pump. I really enjoyed learning how to CAD and use Fusion360. I also really enjoyed learning about hydroponics. I struggled with water siphoning out but I fixed that buy pointing the pipe upwards. For my next milestone, I will be adding the seed planting mechanism. 
 
-![Headstone Image](https://lh3.googleusercontent.com/C7WMHxR3gp5bVhwhWobpb3UXQlimEECQ6CrQny2D709_4VlSmv67J0ia8lVLV2xD6tyv0ZVjGN3Su5kIyV_GkGRonckNJ9l7Yn0-OvVNH6HDEknfsDdVO-sc4l9eSb_igM9eyAVhdrMNolC6t23CPEKQPU_DZVgwSHD896179Dziu2wzwwAnPHL2an2o6BgP7MSPn1JcJ9BmVyeEZ9lglT1X0vvp6h8u37NURqaY8nPZTyYHGUhpQ1rbUtEmeT6XSLzyrblpzkZcCNivzwz8U7Mcihk5hGTW_4TwtY8fwujgChnzftwUwgFJEBZU3dG1dyf-yGmg6AlZ4FQZa4UZADmbuZHlhMgkqofBuFrbNS1_NcgIf5d62GlLryTVm0ymmraOJFWcFv8Ts2rFqpgzituffoTkJujtnnooDOyyKQo-GP26lYVzIGVe-Cq42nTS65U-gAnzezhORGmW6c0AI3pI1Cw61J0xDqJlT16b2p_h3K9FYuFi73VF_OOg1F2xH88ivRisaRPNioY0Pknc6_xJQzvJxf9hsCUvy6FhcWHRCNEm8zf4Z3FAklE-PrqQntQ4FbdQoKA1uy051OQkfQHGv87kHHwyFXzZkz_l7HuuR4Yl7nbHhoo6G6EZT2DRm2es9wUa0ds_PILvIzJ2kHr-h8C_E1pq8lvqkqpsYrNS_kKpy8jRuSeeds54zskqtfoMHOmFwIOcW577dfP88jJF5gXAkpjxq2INMal-bm6TpUoODpYXOmZ9jiky_g=w1492-h894-no?authuser=0)
-[![Third Milestone](https://res.cloudinary.com/marcomontalbano/image/upload/v1612574014/video_to_markdown/images/youtube--y3VAmNlER5Y-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://www.youtube.com/watch?v=y3VAmNlER5Y&feature=emb_logo "Second Milestone"){:target="_blank" rel="noopener"}
+
+[![Second Milestone](https://img.youtube.com/vi/VPIVSs_u_t4/maxresdefault.jpg)](https://www.youtube.com/watch?v=VPIVSs_u_t4&t=17s "Second Milestone"){:target="_blank" rel="noopener"}
 # First Milestone
   
 
  For my first milestone, I managed to get the RC movement mechanism of the tank working. I used an Arduino to control the robot. The 2 DC motors are controlled by the L298N motor controller. The whole robot is controlled via an app I made. The app conveys the instructions to the Bluetooth module which transmits the info to the Arduino. The Arduino sends the signal to the motor controller which controls the DC motor. I enjoyed learning how to code and build the app. I also enjoyed soldering all the connections. I struggled with getting the Bluetooth module to work. It often stopped working. For my next milestone, I will be adding the watering mechanism.
 
 
-[![First Milestone](https://res.cloudinary.com/marcomontalbano/image/upload/v1612574117/video_to_markdown/images/youtube--CaCazFBhYKs-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://www.youtube.com/watch?v=CaCazFBhYKs "First Milestone")
+[![First Milestone](https://img.youtube.com/vi/d7-dR8qXSpk/maxresdefault.jpg)](https://www.youtube.com/watch?v=d7-dR8qXSpk "First Milestone")
 
 
 # Starter Project
