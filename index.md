@@ -7,6 +7,8 @@ My project is the Green Machine. It is a agriculture robot that plants and water
 
 ![Headstone Image](https://lh3.googleusercontent.com/pw/AM-JKLUqwVLOwE-zGW1dLj1Zd_YprCihRz79k14BO8IZSeNU0Xv3QyP-AYmYYFAGavOWbZFLfWW_Ch1vuwSSC7tnXMcrkfqObiM-XP-6RiC-9Tz93Tfqh81yK4Ih5DoT3l1ufrtY455UdwnAC6lQ62roXW9z=w699-h931-no?authuser=0)
 
+
+
 # Final Milestone
 My final milestone is the seed mechanism. I CAD'ed and 3D printed a container and a sliding piece for the bottom. When the servo which is controlled via the app spins and  the 2 holes on the the container and sliding piece line up, the seed can fall out. I atteched the mechanism using mounting tape and wood which I drilled and sawed. I really ejoyed learning how to saw and drill for this mechanism. I struggled with getting the seeds falling out but I fixed that by making the hole larger. 
 
