@@ -18,7 +18,7 @@ My final milestone is the seed mechanism. I CAD'ed and 3D printed a container an
 My second milestone is the watering mechanism for the plants. To reach this milestone, I CAD'ed and laser cut an acrylic box which I glued together with caulk. This served as the water container which has a submersible water pump. My app sends a signal to the bluetooth module which sends the signal to the arduino. The arduino sends a signal to the relay which controlls the submerisible water pump. I really enjoyed learning how to CAD and use Fusion360. I struggled with water siphoning out but I fixed that buy pointing the pipe upwards. For my next milestone, I will be adding the seed planting mechanism. 
 
 
-[![Second Milestone](https://img.youtube.com/vi/VPIVSs_u_t4/maxresdefault.jpg)](https://www.youtube.com/watch?v=VPIVSs_u_t4 "Second Milestone"){:target="_blank" rel="noopener"}
+[![Second Milestone](https://img.youtube.com/vi/VPIVSs_u_t4/maxresdefault.jpg)](https://www.youtube.com/watch?v=VPIVSs_u_t4 "Second Milestone")
 # First Milestone
   
 
