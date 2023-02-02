@@ -210,19 +210,19 @@ void Stop() {
 ```
 
 # Final Milestone
-My final milestone is the seed mechanism. I CAD'ed and 3D printed a container and a sliding piece for the bottom. When the servo which is controlled via the app spins and  the 2 holes on the the container and sliding piece line up, the seed can fall out. I atteched the mechanism using mounting tape and wood which I drilled and sawed. I really ejoyed learning how to saw and drill for this mechanism. I struggled with getting the seeds falling out but I fixed that by making the hole larger. You can watch an indepth explanation in the video down below. 
+My final milestone is the seed mechanism. I CAD'ed and 3D printed a container and a sliding piece for the bottom. When the servo which is controlled via the app spins and  the 2 holes on the the container and sliding piece line up, the seed can fall out. I atteched the mechanism using mounting tape and wood which I drilled and sawed. I really ejoyed learning how to saw and drill for this mechanism. I struggled with getting the seeds falling out but I fixed that by making the hole larger. You can watch an in depth explanation in the video down below. 
 
 [![Final Milestone](https://img.youtube.com/vi/T5iJ-yrfPIw/maxresdefault.jpg)](https://www.youtube.com/watch?v=T5iJ-yrfPIw "Final Milestone")
 
 # Second Milestone
-My second milestone is the watering mechanism for the plants. To reach this milestone, I CAD'ed and laser cut an acrylic box which I glued together with caulk. This served as the water container which has a submersible water pump. My app sends a signal to the bluetooth module which sends the signal to the arduino. The arduino sends a signal to the relay which controlls the submerisible water pump. I really enjoyed learning how to CAD and use Fusion360. I struggled with water siphoning out but I fixed that buy pointing the pipe upwards. For my next milestone, I will be adding the seed planting mechanism. You can watch an indepth explanation in the video down below. 
+My second milestone is the watering mechanism for the plants. To reach this milestone, I CAD'ed and laser cut an acrylic box which I glued together with caulk. This served as the water container which has a submersible water pump. My app sends a signal to the bluetooth module which sends the signal to the arduino. The arduino sends a signal to the relay which controlls the submerisible water pump. I really enjoyed learning how to CAD and use Fusion360. I struggled with water siphoning out but I fixed that buy pointing the pipe upwards. For my next milestone, I will be adding the seed planting mechanism. You can watch an in depth explanation in the video down below. 
 
 
 [![Second Milestone](https://img.youtube.com/vi/VPIVSs_u_t4/maxresdefault.jpg)](https://www.youtube.com/watch?v=VPIVSs_u_t4 "Second Milestone")
 # First Milestone
   
 
- For my first milestone, I managed to get the RC movement mechanism of the tank working. I used an Arduino to control the robot. The 2 DC motors are controlled by the L298N motor controller. The whole robot is controlled via an app I made. The app conveys the instructions to the Bluetooth module which transmits the info to the Arduino. The Arduino sends the signal to the motor controller which controls the DC motor. I enjoyed learning how to code and build the app. I also enjoyed soldering all the connections. I struggled with getting the Bluetooth module to work. It often stopped working. For my next milestone, I will be adding the watering mechanism. You can watch an indepth explanation in the video down below. 
+ For my first milestone, I managed to get the RC movement mechanism of the tank working. I used an Arduino to control the robot. The 2 DC motors are controlled by the L298N motor controller. The whole robot is controlled via an app I made. The app conveys the instructions to the Bluetooth module which transmits the info to the Arduino. The Arduino sends the signal to the motor controller which controls the DC motor. I enjoyed learning how to code and build the app. I also enjoyed soldering all the connections. I struggled with getting the Bluetooth module to work. It often stopped working. For my next milestone, I will be adding the watering mechanism. You can watch an in depth explanation in the video down below. 
 
 
 [![First Milestone](https://img.youtube.com/vi/d7-dR8qXSpk/maxresdefault.jpg)](https://www.youtube.com/watch?v=d7-dR8qXSpk "First Milestone")
@@ -231,6 +231,6 @@ My second milestone is the watering mechanism for the plants. To reach this mile
 # Starter Project
   
 
-My starter project was a motor powered by a motor controller. It was controlled via an Arduino. A motion sensor gave the input for when to move. For example when I moved my hand in front of the sensor, the motor spun for 5 seconds and stopped. I wasted a lot of time troublehshooting because the motor controller turned out to be dead. I enjoyed testing and coding it. I look forward to my intensive project. You can watch an indepth explanation in the video down below. 
+My starter project was a motor powered by a motor controller. It was controlled via an Arduino. A motion sensor gave the input for when to move. For example when I moved my hand in front of the sensor, the motor spun for 5 seconds and stopped. I wasted a lot of time troublehshooting because the motor controller turned out to be dead. I enjoyed testing and coding it. I look forward to my intensive project. You can watch an in depth explanation in the video down below. 
 
 [![Starter Project](https://i3.ytimg.com/vi/lcGB89pQ1Dg/hqdefault.jpg)](https://www.youtube.com/watch?v=lcGB89pQ1Dg "Starter Project")
