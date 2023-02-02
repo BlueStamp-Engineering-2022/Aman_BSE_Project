@@ -1,2 +1,1 @@
-To edit your portfolio, please go over to the gh_pages branch!
-Name: FirstName_BSE_Portfolio
+Check out my documentation on my Green Machine under the branch gh-pages/index.md. You can also check out my circuit digram and code in the main branch.
