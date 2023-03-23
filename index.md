@@ -5,10 +5,11 @@ My project is the Green Machine. It is a agriculture robot that plants and water
 |:--:|:--:|:--:|:--:|
 | Aman Katyal | Mission San Jose High School | Mechanical Engineering and Astrophysics | Junior
 
-![Headstone Image](https://lh3.googleusercontent.com/pw/AM-JKLUqwVLOwE-zGW1dLj1Zd_YprCihRz79k14BO8IZSeNU0Xv3QyP-AYmYYFAGavOWbZFLfWW_Ch1vuwSSC7tnXMcrkfqObiM-XP-6RiC-9Tz93Tfqh81yK4Ih5DoT3l1ufrtY455UdwnAC6lQ62roXW9z=w699-h931-no?authuser=0)
 
+# Circuit Diagram
 ![Circuit Diagram](https://lh3.googleusercontent.com/rw6OZqFfzHqjiNb2TKB1pxriQVQV3_8hGiQ7qHaVNIuEGkapApUq_DDs45H9JfL36PXAavrE8qNRSLxZAuM9Oet5EYNncjDu3zY2a3obnpQj4t8RthkYAvNboKNmq5EPBGU1dU_GuBXcJZNBgrMTYlUndS4vqsD0ae1GBExWRyuVAC7nz4JQJgV7kk424OoLWX3q28CwFoLt4Y-3fQhTltpiyCpp7-XOSppEWfxnmldUpfP3fMJUmcw6VeDwtYkjWkiL56tE5UD4GD_BHQOtg67t3lpFJZ625oGJzRFLOYU8Glt0FShLtwlyeoiQw-rgVQG2KSOF0U_sj8wGaEGzniO6M1LBWMzywhgoir9Ea94yZsqNNpHhD8GNMSYWLxcNg3QBFjymiw99h1Pfn_iPARnKGATN683xeDLg8cmWQ5PUa9RsnPm-ILOCUbpTjFqrnLkEHpNYyBUnPub0D7sNmgA7GCumAtQpP-nhUR74GJi-qAI4iwwv_KNkKWDZgkkbe1u0wjpXj6-uaeaeX7Nb26v_WgaMTYVivS6V3UQMWNMrMvTKkxWxlCF6IAAtIPU1qcq00hEYYq-_O5RdOrKpevgOYk7ld6XvulWqetpuQXjPsBRATvNanYrdQ2UwR7BB-w5f7RmFUqmYntL-oZOk2Hmulrp0F5TsVjG785ncpfAACvoMWyKzbQ720qstQk8rqPfrWXzjitamsq55mM0wyqzZyGYrU_1NG2MptimFWILC4-fr3bIjOLtHbEkn5aABYL40cj4fpjf-iPIquUYK4EPPfx57WPriJxXq00EC8h-iM9CfwZAVX5oDqhsBF9nWsP0eIV8GCryXFMj3XrH-goiXFO2SKXgQ18I-VxFVSK9M9kfmrhj9DbN2vE2WfVDHyJPI-t-Wnj5upsxVIqEqv9L85wkLx7af0hHVu2Zmfm49uqDc6C-cxopOmvwhoZZr0SnQjeVzCnNxqDlJANUHgQ=w1630-h977-no?authuser=0)
 
+# Code
 ```
 #include <SoftwareSerial.h> // includes Software Serial Library
 #include <Servo.h> // Includes Servo Library
